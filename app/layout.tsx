@@ -16,11 +16,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <title>Mi Sitio Web</title>
           <meta name="description" content="Bienvenido a mi sitio web hecho con Next.js." />
           <meta name="author" content="Tu Nombre" />
           <link rel="icon" href="/favicon.ico" />
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
       </head>
       <body>
         <Navbar /> {/* Barra de navegación común */}
